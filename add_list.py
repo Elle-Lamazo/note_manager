@@ -3,7 +3,7 @@
 
 username = input('Введите Ваше Имя:') #имя пользователя
 title = [input('Введите заголовок заметки:\n1.'), input('2.'), input('3.')] #заголовок заметки
-print(type(title))
+#print(type(title))
 content = [input('Введите описание заметки:\n1.' + '"' + title[0] + '": '), input('2.' + '"' + title[1] + '": '),
            input('3.' + '"' + title[2] + '": ')] #описание заметки
 status = [input('Укажите статус заметки:\n1.' + '"' + title[0] + '": '), input('2.' + '"' + title[1] + '": '),
